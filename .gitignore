@@ -1,0 +1,39 @@
+# ── Build output ──────────────────────────────────────────────────────
+build/
+out/
+bin/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Binary nama executable hasil compile manual (g++ main.cpp -o main)
+main
+BeatIT
+
+# ── CMake ────────────────────────────────────────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ── IDE / Editor ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS files ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs / temp ──────────────────────────────────────────────────────
+*.log
+*.tmp
